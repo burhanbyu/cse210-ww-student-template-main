@@ -1,0 +1,41 @@
+class Product
+{
+    private string _name;
+    private string _productId;
+    private double _price;
+    private int _quantity;
+
+    public Product(string name, string productId, double price, int quantity)
+    {
+        _name = name;
+        _productId = productId;
+        _price = price;
+        _quantity = quantity;
+    }
+
+    public string GetName()
+    {
+        return _name;
+    }
+
+    public string GetProductId()
+    {
+        return _productId;
+    }
+
+    public double GetPrice()
+    {
+        return _price;
+    }
+
+    public int GetQuantity()
+    {
+        return _quantity;
+    }
+
+    // Calculates total cost of this product (price × quantity)
+    public double CalculateTotalCost()
+    {
+        return _price * _quantity;
+    }
+}
