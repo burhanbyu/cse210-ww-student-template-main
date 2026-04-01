@@ -4,13 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create videos
+        // videos
         Video video1 = new Video("How to Cook Pasta", "Chef John", 300);
         Video video2 = new Video("Top 10 Coding Tips", "Jane Doe", 600);
         Video video3 = new Video("Yoga for Beginners", "FitnessGuru", 900);
         Video video4 = new Video("Travel Vlog: Paris", "Traveler Mike", 720);
 
-        // Add comments
+        // comments i added to the videos
         video1.AddComment(new Comment("Alice", "Great tutorial!"));
         video1.AddComment(new Comment("Bob", "I love pasta!"));
         video1.AddComment(new Comment("Charlie", "Easy to follow."));
