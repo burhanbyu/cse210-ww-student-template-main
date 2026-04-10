@@ -1,5 +1,6 @@
 {
     "csharp-dev-tools.roslyn.projectOrSolutionFiles": [
         "c:\\Users\\Path\\Desktop\\cse210-ww-student-template-main\\cse210-ww-student-template.sln"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
